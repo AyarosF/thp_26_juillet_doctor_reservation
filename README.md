@@ -1,24 +1,25 @@
-# README
+# The Hacking News - projet THP 25 juillet 2018
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Après avoir cloné le repo
 
-Things you may want to cover:
+Pour créer une BDD, faire :
+- `bundle install`
+- `rails db:migrate`
+- `rails db:seed`
 
-* Ruby version
+## Le contenu
 
-* System dependencies
+A été créée une base de données, avec une application rails, en utilisant la gem ActiveRecord.
 
-* Configuration
+### Le projet
 
-* Database creation
+Une plateforme concurrente de Doctolib
 
-* Database initialization
+- Un appointment ne peut avoir qu'un seul doctor, mais un doctor peut avoir plusieurs appointment.
+- Un appointment ne peut avoir qu'un seul patient, mais un patient peut avoir plusieurs appointment
+- Un doctor peut avoir plusieurs patient, au travers des appointments, et vice versa.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## La team
 
-* Deployment instructions
-
-* ...
+Ce programme est made in Strasbourg, by Soraya FRUCTUOSO, Samaneh VAEZI et Hugo PAYET avec amour ! Bonne correction les amis :kissing_heart:
