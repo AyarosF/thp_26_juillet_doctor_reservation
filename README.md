@@ -1,4 +1,4 @@
-# Platforme de réservations de docteurs - projet THP 25 juillet 2018
+# Platforme de réservations de docteurs - projet THP 26 juillet 2018
 
 ## Après avoir cloné le repo
 
